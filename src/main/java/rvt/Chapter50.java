@@ -104,7 +104,7 @@ final class Box {
     public Box smallerBox() {
         return new Box(width * 0.75, height * 0.75, length * 0.75);
     }
-
+    //.
     public boolean nests(Box outside) {
         return width < outside.width
                 && height < outside.height
